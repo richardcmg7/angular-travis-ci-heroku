@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "torreapp"
+    }
+  },
+  "defaultProject": "torreapp",
+  "cli": {
+    "analytics": "3fd4bea7-9704-4f77-a88b-36a6d6b6c700"
+  }
 }
