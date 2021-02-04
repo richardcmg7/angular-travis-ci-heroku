@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-- '6'
+- 'node'
 before_install:
 - npm install -g @angular/cli
 install: npm install
@@ -12,5 +12,5 @@ after_script:
 deploy:
   provider: heroku
   api_key:
-    secure: generate your's using travis cli 
-  app: angular-cd-demo
+    secure: "062796eb-74a5-451b-9c87-40e35e50c5ed"
+  app: torreco
